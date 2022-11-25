@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+header{ 
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgba(18,148,206,255);
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    display: flex;
+    height: 700px;
+    
+}
+
+.hero-texto{
+    display: flex;
+    flex-direction: column;
+    font-size:40px ;
+    color: rgb(123, 123, 224);
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: beige;
+    box-shadow: 0px 1px 10px rgb(red, green, blue);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+box-shadow: 5px 5px 20px rgb(0,0,0,0.4);
+transform: translateY(-3%);
+}
+
+
+.card img{
+    width: 100%;
+    height: 210%;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: blue;
+    margin-top: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+}
+
+.card .contenido a:hover{
+    background: blue;
+    color: yellowgreen;
+}
+
+footer{
+    background-color: rgba(18,148,206,255);
+    text-align: center;
+    bottom: 0
+}
+
+/* login */ 
+
+.form{
+    
+    background-color: beige;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+
+
+}
